@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book a Session - Saif Kamran Physiotherapy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Book a Physiotherapy Session</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html">Book</a>
+    </nav>
+  </header>
+
+  <section class="cta" style="max-width: 600px; margin: auto;">
+    <form action="https://formsubmit.co/saifikamran2000@gmail.com" method="POST">
+      <label>Full Name:</label><br/>
+      <input type="text" name="name" required><br/><br/>
+
+      <label>Email:</label><br/>
+      <input type="email" name="email" required><br/><br/>
+
+      <label>Phone Number:</label><br/>
+      <input type="tel" name="phone" required><br/><br/>
+
+      <label>Address:</label><br/>
+      <textarea name="address" rows="2" required></textarea><br/><br/>
+
+      <label>Chief Complaint:</label><br/>
+      <textarea name="complaint" rows="2" required></textarea><br/><br/>
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="submit" value="Submit Details" class="btn">
+    </form>
+  </section>
+
+  <section class="cta" style="text-align:center; margin-top: 40px;">
+    <h3>Step 2: Make Your Payment</h3>
+    <p>Scan the QR code below using any UPI app to complete your booking.</p>
+    <img src="qr.jpg" alt="Scan UPI QR" style="max-width: 300px;"/>
+    <p>or pay to UPI ID: <strong>saifikamran2000@okicici</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Saif Kamran Physiotherapy</p>
+  </footer>
+</body>
+</html>
